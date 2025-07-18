@@ -1,13 +1,15 @@
 body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto;}
 .header {
   display: flex;
-  justify-content:left;
+  justify-content:start;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0 20px;
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
 }
-
+.padded-header {
+  padding: 20px; /* or any value you like */
+}
 .header-title {
   font-size: 24px;
   font-weight: bold;
