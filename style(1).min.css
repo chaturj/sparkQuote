@@ -1,4 +1,24 @@
-body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto;}.site-header{
+body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}.wp-block-group__inner-container{max-width:1200px;margin-left:auto;margin-right:auto;}
+.header {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-image img {
+  height: auto;
+  width: 80px;
+}
+.site-header{
       display: flex;
       align-items: center;
       justify-content: center;
