@@ -13,7 +13,7 @@ body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}
   align-items: center;  
   gap: 15px;
   padding: 20px; 
-  background-color: #FBFAFB;/* or any value you like */
+  /* background-color: #FBFAFB;or any value you like */
 }
 .header-title {
   font-size: 24px;
