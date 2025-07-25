@@ -8,7 +8,12 @@ body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}
   border-bottom: 1px solid #ddd;
 }
 .padded-header {
-  padding: 20px; /* or any value you like */
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+  gap: 15px;
+  padding: 20px; 
+  background-color: #FBFAFB;/* or any value you like */
 }
 .header-title {
   font-size: 24px;
@@ -19,6 +24,13 @@ body{background-color:var(--contrast);color:var(--base);}a{color:var(--base-3);}
 .header-image img {
   height: auto;
   width: 80px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers both image and text horizontally */
+  gap: 15px; /* space between image and text */
+  text-align: center;
 }
 .site-header{
       display: flex;
